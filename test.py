@@ -67,10 +67,10 @@ def similar(all_keys, original_document_dic, original_document_test_dic):
 
 
 def test(doc_name):
-    test_file = "C:/Users/Administrator/sim_0.8/"+doc_name
+    test_file = "C:\Users\ALIENWARE\PycharmProjects\pythonProject\sim_0.8/"+doc_name
     original_document_test = test_file
     all_key = set()
-    original_document = "C:/Users/Administrator/sim_0.8/orig.txt"
+    original_document = "C:\Users\ALIENWARE\PycharmProjects\pythonProject\sim_0.8/orig.txt"
     str_Original_document = string(original_document)
     str_Original_document_test = string(original_document_test)
     original_document_dic1 = get_word(original_document, str_Original_document)
